@@ -200,10 +200,10 @@ a.link:last-child {
 .header__slider {
   margin-top: 15px;
   min-height: 400px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("img/bg-01.jpg") 0 0/cover no-repeat;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg-01.jpg") 0 0/cover no-repeat;
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg-01.jpg") 0 0/cover no-repeat;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("img/bg-01.jpg") 0 0/cover no-repeat; }
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("/img/bg-01.jpg") 0 0/cover no-repeat;
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/bg-01.jpg") 0 0/cover no-repeat;
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/bg-01.jpg") 0 0/cover no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/bg-01.jpg") 0 0/cover no-repeat; }
 
 .header__slider-item {
   display: block;
