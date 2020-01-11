@@ -266,19 +266,13 @@ a.link:last-child {
 .social__item {
   padding-right: 10px; }
 
-.socIcon {
-  display: block;
-  width: 23px;
-  height: 23px;
-  cursor: pointer; }
-
 .fill {
-  fill: #BDBDBD;
-  -webkit-transition: ease 0.3s;
-  -o-transition: ease 0.3s;
-  transition: ease 0.3s; }
-  .fill:hover {
-    fill: #8b0909; }
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s; }
+
+.social__item a:hover svg path {
+  fill: #A81428; }
 
 .medium__header {
   display: -webkit-box;

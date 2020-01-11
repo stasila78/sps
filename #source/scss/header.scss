@@ -52,21 +52,12 @@ a.link:last-child{
 .social__item {
 	padding-right: 10px;
 }
-
-.socIcon{
-	display: block;
-	width: 23px;
-	height: 23px;
-	cursor: pointer;
-}
 .fill{
-	fill: #BDBDBD;
-	transition: ease 0.3s;
-	&:hover{
-		fill: rgb(139, 9, 9);
-	}
+	transition: all 0.3s;
 }
-
+.social__item a:hover svg path{
+	fill: #A81428;
+}
 .medium__header {
 	display: flex;
 	width: 100%;
